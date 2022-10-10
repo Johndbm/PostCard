@@ -1,13 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
+/*Internal notes for myself
+	References: 
+		+ https://developer.mozilla.org/es/docs/Web/CSS/padding
+		+ https://www.w3schools.com/css/css_font_google.asp#gsc.tab=0&gsc.q=css%20%40import
+		+ https://www.w3schools.com/cssref/pr_import_rule.asp
+		+ https://www.w3docs.com/snippets/css/how-to-import-google-fonts-in-css-file.html
+		+ https://developer.mozilla.org/en-US/docs/Web/CSS/@import
+	*/
+
 body {
 	background: black;
 }
 /* * {
-	border: 1px dashed red;
-	min-height: 10px;
-}*/
+		border: 1px dashed red;
+		min-height: 10px;
+	}*/
 .postcard {
 	background: white;
 	width: 400px;
