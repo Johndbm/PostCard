@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 body {
 	background: black;
 }
@@ -19,14 +22,18 @@ body {
 	height: 50px;
 	margin: 0px;
 	text-align: center;
+	padding: 5%;
 }
 .postcard-header h1 {
+	font-family: "Audiowide";
 	width: 400px;
 	height: 50px;
 	margin: 0px;
 	text-align: center;
+	padding: 5%;
 }
 .postcard-body {
+	font-family: "Raleway";
 	display: flex;
 }
 .body-left p:first-child {
@@ -41,6 +48,6 @@ body {
 }
 .postcard-footer {
 	text-align: center;
-	background: darkgray;
+	background: whitesmoke;
 	padding: 2%;
 }
