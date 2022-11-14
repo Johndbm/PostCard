@@ -12,16 +12,21 @@
 
 body {
 	background: black;
+	display: flex;
+	margin:0%;
+	min-height: 100vh;
 }
 /* * {
 		border: 1px dashed red;
 		min-height: 10px;
 	}*/
+.container{
+	margin: auto;
+}
 .postcard {
 	background: white;
 	width: 400px;
 	height: 300px;
-	margin: auto;
 }
 .postcard-header {
 	display: flex;
